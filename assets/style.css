@@ -1,0 +1,66 @@
+/* Import Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Sfondo della pagina e font principale */
+.stApp {
+    background-color: #f8fafc;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Nascondere hamburger menu e footer per look minimale */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+/* Titoli */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif !important;
+    color: #0f172a;
+    font-weight: 600 !important;
+    letter-spacing: -0.025em;
+}
+
+/* Sub-text e label */
+label {
+    font-weight: 500 !important;
+    color: #475569 !important;
+    font-size: 0.875rem !important;
+}
+
+/* Stile Sidebar (Filtri) */
+[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e2e8f0;
+}
+
+/* Bottoni (Tags style) */
+.stButton > button {
+    border-radius: 9999px !important;
+    background-color: #f1f5f9;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background-color: #e2e8f0;
+    border-color: #cbd5e1;
+}
+
+/* Stile delle metriche */
+[data-testid="stMetricValue"] {
+    color: #0f172a;
+    font-weight: 700 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #64748b !important;
+    font-weight: 500 !important;
+}
+
+/* Tabella dati */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+}

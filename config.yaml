@@ -1,0 +1,25 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@sportway.it
+      failed_login_attempts: 0
+      logged_in: False
+      name: Amministratore
+      password: $2b$12$ygIhman7cYSu9oC3vvHkm.JA3N8qwLJAQIRBSZZ.AbVbQyIyitmnC
+      roles:
+        - admin
+    venditore:
+      email: venditore@sportway.it
+      failed_login_attempts: 0
+      logged_in: False
+      name: Venditore
+      password: $2b$12$yPSx1yrxcJekCz6xyb2CAeEC6BVxmPvEq3x1WE3Fg.Y1yiTE5KBpe
+      roles:
+        - venditore
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: sportway_cookie
+pre-authorized:
+  emails:
+    - admin@sportway.it
